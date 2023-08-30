@@ -26,7 +26,7 @@ export default {
   hireable: null,
   bio: 'BS - Software Engineering\r\nMS - Artificial Intelligence',
   twitter_username: null,
-  public_repos: 15,
+  public_repos: 37,
   public_gists: 0,
   followers: 1,
   following: 4,
