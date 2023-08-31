@@ -14,8 +14,8 @@ const Followers = () => {
               <img src={img} alt={login} />
               <div>
                 <h4>{login}</h4>
+                <a href={html_url}>{html_url}</a>
               </div>
-              <a href={html_url}>{html_url}</a>
             </article>
           )
         })}
@@ -47,7 +47,7 @@ const Wrapper = styled.article`
     font-size: 1rem;
   }
   .followers {
-    overflow: scroll;
+    overflow: auto;
     height: 260px;
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(45px, 1fr));
